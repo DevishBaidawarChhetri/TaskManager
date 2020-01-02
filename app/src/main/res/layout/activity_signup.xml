@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <LinearLayout
@@ -64,7 +64,8 @@
             android:layout_marginTop="20dp"
             android:layout_marginRight="15dp"
             android:layout_marginBottom="15dp"
-            android:hint="Password" />
+            android:hint="Password"
+            android:inputType="textPassword" />
 
         <EditText
             android:id="@+id/etCOnfirmPassword"
@@ -75,7 +76,8 @@
             android:layout_marginTop="20dp"
             android:layout_marginRight="15dp"
             android:layout_marginBottom="15dp"
-            android:hint="Confirm Password" />
+            android:hint="Confirm Password"
+            android:inputType="textPassword" />
 
         <Button
             android:id="@+id/btnSignup"
